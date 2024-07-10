@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          I'm Vivek, a passionate frontend developer with two years of hands-on
+          I'm Vivek, a passionate frontend developer with three years of hands-on
           experience in crafting dynamic and engaging web experiences. My
           journey in the world of web development has been an exciting blend of
           creativity, innovation, and continuous learning. My expertise lies in
