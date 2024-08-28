@@ -1,13 +1,16 @@
 import React from "react";
-import arrayDestruct from "../assets/projects/arrayDestruct.jpg";
-import installNode from "../assets/projects/installNode.jpg";
-import navbar from "../assets/projects/navbar.jpg";
-import reactParallax from "../assets/projects/reactParallax.jpg";
-import reactSmooth from "../assets/projects/reactSmooth.jpg";
-import reactWeather from "../assets/projects/reactWeather.jpg";
-import unsplash from "../assets/projects/unsplsh_img.png";
-import getactyv from "../assets/projects/getactyv.png";
-import physio from "../assets/projects/physio.png";
+// import arrayDestruct from "../assets/projects/arrayDestruct.jpg";
+// import installNode from "../assets/projects/installNode.jpg";
+// import navbar from "../assets/projects/navbar.jpg";
+// import reactParallax from "../assets/projects/reactParallax.jpg";
+// import reactSmooth from "../assets/projects/reactSmooth.jpg";
+// import reactWeather from "../assets/projects/reactWeather.jpg";
+import unsplash from "../assets/projects/projects/unsplsh_img.png";
+import getactyv from "../assets/projects/projects/getactyv.png";
+import physio from "../assets/projects/projects/physio.png";
+import gogolend from "../assets/projects/projects/gogolend.png";
+import incash from "../assets/projects/projects/incash.png";
+import incashbo from "../assets/projects/projects/incashbo.png";
 // import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
@@ -29,6 +32,24 @@ const Projects = () => {
       id: 3,
       src: physio,
       link: "https://web.getactyvphysio.com/",
+      code: "",
+    },
+    {
+      id: 1,
+      src: gogolend,
+      link: "https://www.gogolend.co/en-us",
+      code: "",
+    },
+    {
+      id: 2,
+      src: incashbo,
+      link: "https://admin-incash.stage456.xyz/en-us/",
+      code: "",
+    },
+    {
+      id: 3,
+      src: incash,
+      link: "https://landing-incash.stage456.xyz/en-us",
       code: "",
     },
     // {
@@ -70,7 +91,7 @@ const Projects = () => {
                 {/* <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   onClick={() => {
-                    // navigate(`link`);
+                    // navigate(link);
                     // window.open(link, "_blank")
                   }}
                 >
