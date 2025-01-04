@@ -15,9 +15,9 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 3 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and Javascrip.
+            I have around 3.5 years of experience building and desgining software.
+            Currently, I love to work on web application using technologies like Javascript,
+            ReactJS, VueJS, NextJS and Tailwind.
           </p>
 
           <div>
